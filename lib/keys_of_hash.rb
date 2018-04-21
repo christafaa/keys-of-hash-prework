@@ -6,6 +6,6 @@ class Hash
         result << k if v == argument
       end
     end
+    result
   end
-  result
 end
