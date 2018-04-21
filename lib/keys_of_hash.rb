@@ -1,7 +1,7 @@
 class Hash
   def keys_of(*arguments)
     result = []
-    arguments.split.each do |argument|
+    arguments.each do |argument|
       self.each do |k, v|
         result << k if v == argument
       end
