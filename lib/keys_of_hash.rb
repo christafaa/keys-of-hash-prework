@@ -5,5 +5,8 @@ class Hash
       self.each do |k, v|
         if v == argument
           result << k
+        end
+      end
+    end
   end
 end
