@@ -7,5 +7,5 @@ class Hash
       end
     end
   end
-  p result
+  result
 end
