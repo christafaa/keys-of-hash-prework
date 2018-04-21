@@ -3,5 +3,6 @@ class Hash
     result = []
     arguments.each do |argument|
       self.each do |k, v|
+        if 
   end
 end
