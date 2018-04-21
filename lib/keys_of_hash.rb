@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     result = []
     arguments.split.each do |argument|
       self.each do |k, v|
